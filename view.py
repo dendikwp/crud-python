@@ -10,7 +10,7 @@ print(conn,"sukses")
 
 mycursor = conn.cursor()
 
-# menampilkan data
+# menampilkan data pegawai
 mycursor.execute("SELECT * FROM pegawai")
 data = mycursor.fetchall()
 print(data)
